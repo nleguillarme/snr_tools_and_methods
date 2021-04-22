@@ -1,12 +1,11 @@
-# snr_tools_and_methods
+# Evaluation of methods and tools for taxonomic NER (species name recognition)
 
-This repository contains evaluation scripts, docker images and links to the corpora used for the paper Evaluation of methods and tools for taxonomic entity recognition in the ecological literature.
+This repository contains evaluation scripts, docker images and links to the corpora used for the paper **TaxoNERD: deep neural models for the recognition
+of taxonomic entities in the ecological and evolutionary literature**.
 
 ## Corpora
 
 The corpora can be publicly accessed at the following links:
-
-### Species names recognition
 
 | Corpora | Text Genre | Standard | Entities | Publication |
 | --- | --- | --- | --- | --- |
@@ -17,8 +16,7 @@ The corpora can be publicly accessed at the following links:
 
 ### Preprocessing
 
-Corpora pre-processing methods were collected in a single jupyter notebook for ease-of-use.
-
+Corpora pre-processing operations were collected in a single jupyter notebook for ease-of-use.
 
 ### Train/test/dev split
 
@@ -27,3 +25,10 @@ Corpora pre-processing methods were collected in a single jupyter notebook for e
 - COPIOUS: the COPIOUS corpus is already splitted into train, test and validation sets. 
 - BB task: we used the validation set for testing, and randomly split the train set into train/validation subsets with a 85:15 ratio.
 
+## Images
+
+To facilitate the install of existing taxonomic NER tools written in different languages, we provide a Dockerfile for each tool. This means you will need [Docker](https://www.docker.com/) to run the evaluation scripts. Code for building Docker images is provided as part of the evaluation scripts, so you do not have to build the images yourself.
+
+## Evaluation
+
+All scripts used for evaluation are provided as jupyter notebooks, one per evaluated method.
