@@ -1,7 +1,7 @@
 # snr_tools_and_methods
 
-This repository contains evaluation scripts, docker images and links to the corpora used for the paper TaxoNERD: deep neural models for the recognition
-of taxonomic entities in the ecological and evolutionary literature.
+This repository contains evaluation scripts, docker images and links to the corpora used for the paper **TaxoNERD: deep neural models for the recognition
+of taxonomic entities in the ecological and evolutionary literature**.
 
 ## Corpora
 
