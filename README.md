@@ -7,8 +7,6 @@ of taxonomic entities in the ecological and evolutionary literature**.
 
 The corpora can be publicly accessed at the following links:
 
-### Species names recognition
-
 | Corpora | Text Genre | Standard | Entities | Publication |
 | --- | --- | --- | --- | --- |
 | [Linnaeus](http://linnaeus.sourceforge.net/)| Scientific Article | Gold | species | [link](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-85)|
