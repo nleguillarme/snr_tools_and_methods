@@ -1,6 +1,7 @@
 # snr_tools_and_methods
 
-This repository contains evaluation scripts, docker images and links to the corpora used for the paper Evaluation of methods and tools for taxonomic entity recognition in the ecological literature.
+This repository contains evaluation scripts, docker images and links to the corpora used for the paper TaxoNERD: deep neural models for the recognition
+of taxonomic entities in the ecological and evolutionary literature.
 
 ## Corpora
 
@@ -17,8 +18,7 @@ The corpora can be publicly accessed at the following links:
 
 ### Preprocessing
 
-Corpora pre-processing methods were collected in a single jupyter notebook for ease-of-use.
-
+Corpora pre-processing operations were collected in a single jupyter notebook for ease-of-use.
 
 ### Train/test/dev split
 
@@ -26,4 +26,3 @@ Corpora pre-processing methods were collected in a single jupyter notebook for e
 - S800: we used [this script](https://github.com/spyysalo/s800) to generate the subsets.
 - COPIOUS: the COPIOUS corpus is already splitted into train, test and validation sets. 
 - BB task: we used the validation set for testing, and randomly split the train set into train/validation subsets with a 85:15 ratio.
-
