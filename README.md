@@ -26,3 +26,11 @@ Corpora pre-processing operations were collected in a single jupyter notebook fo
 - S800: we used [this script](https://github.com/spyysalo/s800) to generate the subsets.
 - COPIOUS: the COPIOUS corpus is already splitted into train, test and validation sets. 
 - BB task: we used the validation set for testing, and randomly split the train set into train/validation subsets with a 85:15 ratio.
+
+## Images
+
+To facilitate the install of existing taxonomic NER tools written in different languages, we provide a Dockerfile for each tool. This means you will need [Docker](https://www.docker.com/) to run the evaluation scripts. Code for building Docker images is provided as part of the evaluation scripts, so you do not have to build the images yourself.
+
+## Evaluation
+
+All scripts used for evaluation are provided as jupyter notebooks, one per evaluated method.
