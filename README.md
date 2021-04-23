@@ -3,6 +3,8 @@
 This repository contains evaluation scripts, docker images and links to the corpora used for the paper **TaxoNERD: deep neural models for the recognition
 of taxonomic entities in the ecological and evolutionary literature**.
 
+In this paper, we propose a new tool for taxonomic NER based on deep neural networks, called [TaxoNERD](https://github.com/nleguillarme/taxonerd) and perform a comparative evaluation with existing taxon name recognition systems.
+
 ## Corpora
 
 The corpora can be publicly accessed at the following links:
