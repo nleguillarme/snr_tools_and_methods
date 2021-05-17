@@ -1,7 +1,7 @@
 # Evaluation of methods and tools for taxonomic NER (species name recognition)
 
 This repository contains evaluation scripts, docker images and links to the corpora used for the paper **TaxoNERD: deep neural models for the recognition
-of taxonomic entities in the ecological and evolutionary literature**.
+of taxonomic entities in the ecological and evolutionary literature** ([link](https://www.researchgate.net/publication/351069835)).
 
 In this paper, we propose a new tool for taxonomic NER based on deep neural networks, called [TaxoNERD](https://github.com/nleguillarme/taxonerd) and perform a comparative evaluation with existing taxon name recognition systems.
 
